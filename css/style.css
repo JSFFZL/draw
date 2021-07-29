@@ -44,15 +44,16 @@ body{
 	text-shadow: 1px 1px 1px #008800;
 }
 .result{
-	width: 47%;
+	width: 260px;
 	/* height: 80px; */
 	position: absolute;
-	top: 10vh;
-	left: 30%;
+	top: 15vh;
+	left: 50%;
+	transform: translate(-50%,-50%);
 	color: red;
 	text-shadow: 1px 1px 1px #008800;
-	font-size: 2.8em;
-	font-weight: 900;
+	font-size: 2.6em;
+	font-weight: 600;
 	opacity: 0;
 	transition: 2s;
 	text-align: center;
