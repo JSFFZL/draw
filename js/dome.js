@@ -44,7 +44,7 @@ function starts(){
 		document.getElementById("strs").style.transform="translateZ(450px) translateY(350px)";
 		document.getElementById("result").style.opacity="1";
 		var rdmname = document.getElementById("strs").childNodes[25].firstChild.innerText;
-		document.getElementById("result").innerText='恭喜 ' + rdmname + ' 同学中奖!';
+		document.getElementById("result").innerText='恭喜 ' + rdmname + ' 中奖!';
 		namess.unshift(rdmname+' 中奖');
 		rank();
 		num1=0;
