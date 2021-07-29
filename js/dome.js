@@ -46,7 +46,7 @@ function starts(){
 		var rdmname = document.getElementById("strs").childNodes[25].firstChild.innerText;
 		document.getElementById("result").innerText='恭喜 ' + rdmname + ' 中奖!';
 		namess.unshift(rdmname+' 中奖');
-		rank();
+		// rank();
 		num1=0;
 	}
 }
@@ -68,7 +68,7 @@ function updatelist(){
 		document.getElementById("updatelist").innerHTML+='<option>'+names[i]+'</option>'
 	}
 }
-updatelist();
+// updatelist();
 function update3(){
 	document.getElementById("update").style.top="-35vh";
 	document.getElementById("tx").value='';
